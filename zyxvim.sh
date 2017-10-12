@@ -17,7 +17,7 @@ sudo apt-get install build-essential cmake
 echo "install python if neccessary"
 sudo apt-get install python-dev python3-dev
 git submodule update --init --recursive
-./install.py
+./install.py --clang-completer
 echo "vim PluginInstall..."
 vim +PluginInstall +qall
 echo "install ctags"
